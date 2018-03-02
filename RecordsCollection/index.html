@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Records collection</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  
-  
+	<body onload="createClient()">
   	 <div class="container">
       <h1>Records collection</h1>
       <div class="jumbotron">
@@ -23,7 +23,8 @@
            <input type="text" class="form-control" id="albumId" placeholder="Podaj album ...">
             </select>
           </div>
-          <button type="button" class="btn btn-primary" onclick="showAlert('artistName', 'albumId')">Zatwierdź</button>
+       <button type="button" class="btn btn-primary" onclick="showAlert('artistName', 'albumId')">Zatwierdź</button>
+     
         </form>
       </div>
       <div class="col-lg-12">
@@ -35,4 +36,6 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="index.js"></script>
+
+</body>
 </html>
